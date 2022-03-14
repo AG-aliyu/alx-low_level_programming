@@ -1,9 +1,11 @@
 #include <stdio.h>
 /**
- *main - Entry Point
- *Return: return 1 after program execution
+ * main - Entry point
+ *
+ * Return: Always 1 (Success)
  */
 int main(void)
 {
-printf("with proper grammar, but the outcome is a piece of art,\n");
+printf("Programming is like building a multilingual puzzle,\n");
 return (0);
+}
