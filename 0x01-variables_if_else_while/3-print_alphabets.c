@@ -6,8 +6,8 @@
  */
 int main(void)
 {
-char lowercase;
 char uppercase;
+char lowercase;
 for (uppercase = 'A'; uppercase <= 'Z'; uppercase++)
 {
 putchar(uppercase);
