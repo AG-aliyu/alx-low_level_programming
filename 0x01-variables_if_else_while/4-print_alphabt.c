@@ -10,8 +10,12 @@ char alphaletters;
 
 for (alphaletters = 'a'; alphaletters <= 'z'; alphaletters++)
 {
-if ((alphaletters == 'q') && (alphaletters == 'e'))
+if (alphaletters == 'q')
 continue;
+
+else if (alphaletters == 'e')
+continue;
+
 putchar(alphaletters);
 }
 putchar ('\n');
