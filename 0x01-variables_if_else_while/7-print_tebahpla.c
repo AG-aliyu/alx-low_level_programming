@@ -7,9 +7,9 @@
 int main(void)
 {
 char letters;
-for (letters = 'a'; letters <= 'z'; letters++)
+for (letters = 122; letters >= 97; letters--)
 {
-rev(letters);
+putchar(letters);
 }
 putchar('\n');
 return (0);
