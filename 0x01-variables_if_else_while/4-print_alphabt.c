@@ -11,7 +11,7 @@ char alphaletters;
 for (alphaletters = 'a'; alphaletters <= 'z'; alphaletters++)
 {
 if ((alphaletters == 'q') && (alphaletters == 'e'))
-continue:
+continue;
 putchar(alphaletters);
 }
 putchar ('\n');
