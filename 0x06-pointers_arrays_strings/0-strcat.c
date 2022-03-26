@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- *_strcat - concatenates two strings
- *@dest: A Pointer to a character that will be changed
- *@src: A Pointer to a character that will also be changed
- *Rturn: dest
+ * main - check the code
+ *
+ * Return: Always 0.
  */
+
 char *_strcat(char *dest, char *src)
 {
 int i, j;
