@@ -3,16 +3,20 @@
  * _strncpy -coping a string
  * @dest: A pointer to a character to be changed
  * @src: A pointer to a character to be changed
- * @n: input number of char
+ * @co: input number of char
  * Return:@dest
  */
-char *_strncpy(char *dest, char *src, int n)
+char *_strncat(char *dest, char *src, int n)
 {
-int i;
-for (i = 0; src[i] != '\0'; i++)
-if (i < n)
-dest[i] = src[i];
-while (i < n)
-dest[i++] = '\0';
+int i, co;
+for (i = 0; dest[i] != '\0'; i++)
+{
+}
+for (co = 0; co < n; co++)
+{
+dest[i + co] = src[co];
+if (src[co] == '\0')
+co = n;
+}
 return (dest);
 }
