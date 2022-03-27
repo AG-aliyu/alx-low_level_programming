@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * _strncpy -coping a string
- * @dest: A pointer to a character to be changed
- * @src: A pointer to a character to be changed
- * @co: input number of char
- * Return:@dest
+ * _strncat - a function that concatenates two strings
+ * @dest:copy to
+ * @src: copy from
+ * @n: n
+ * Return: Always 0 (Success)
  */
 char *_strncat(char *dest, char *src, int n)
 {
