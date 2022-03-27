@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * _strncpy -coping a string
  * @dest: A pointer to a character to be changed
@@ -24,4 +25,3 @@ i++;
 dest[i] = '\0';
 return (dest);
 }
-
