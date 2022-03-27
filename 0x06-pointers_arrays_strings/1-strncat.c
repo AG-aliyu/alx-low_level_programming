@@ -14,7 +14,6 @@ while (dest[i] != '\0')
 {
 i++;
 }
-
 j = 0;
 while (j < n  && src[j] != '\0')
 {
@@ -25,4 +24,3 @@ i++;
 dest[i] = '\0';
 return (dest);
 }
-
