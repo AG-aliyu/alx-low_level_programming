@@ -39,7 +39,7 @@ int palindrome(char sr[], int x, int y)
 {
 if (x >= y)
 return (1);
-if (sr[st] != sr[y])
+if (sr[x] != sr[y])
 return (0);
 if (x <= y || x < y + 1)
 return (palindrome(sr, x + 1, y - 1));
