@@ -15,5 +15,5 @@ else
 {
 return;
 }
-_putchar(*s);}
+_putchar(*s);
 }
