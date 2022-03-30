@@ -12,6 +12,10 @@ _putchar('e');
 _putchar('l');
 _putchar('l');
 _putchar('o');
+_putchar('a');
+_putchar('l');
+_putchar('i');
+_putchar('y');
 _putchar('\n');
 return (0);
 }
