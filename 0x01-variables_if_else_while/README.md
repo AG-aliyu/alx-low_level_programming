@@ -8,3 +8,5 @@ Task 2 This program prints the alphabet in lowercase, followed by a new line
 Task 3 This program prints the alphabet in lowercase, and then in uppercase, followed by a new line
 
 10. Write a program that prints all possible different combinations of two digits
+
+11. Write a program that prints all possible different combinations of three digits.
