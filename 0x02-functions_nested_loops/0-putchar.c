@@ -1,22 +1,18 @@
 #include "main.h"
 /**
- * main - Entry point
- *
- * Return: Always 0 (Success)
+ * main - Print "_putchar" followed by a new line.
+ * Description: You are not allowed to include standard libraries.
+ * Return: 0
  */
 int main(void)
 {
-
-_putchar('H');
-_putchar('e');
-_putchar('l');
-_putchar('l');
-_putchar('o');
-_putchar('a');
-_putchar('l');
-_putchar('i');
-_putchar('y');
+char holberton[] = "_putchar";
+int i = 0;
+while (holberton[i] != '\0')
+{
+_putchar(holberton[i]);
+i++;
+}
 _putchar('\n');
-
 return (0);
 }
